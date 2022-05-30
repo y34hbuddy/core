@@ -2484,7 +2484,7 @@ async def test_one_deprecation_warning_per_platform(hass, mqtt_mock, caplog):
     assert count == 1
 
 
-async def test_remove_unknown_conf_entry_options(hass, mqtt_client_mock):
+async def test_remove_unknown_conf_entry_options(hass, mqtt_client_mock, caplog):
     """Test unknown keys in config entry data is removed."""
     mqtt_config = {
         mqtt.CONF_BROKER: "mock-broker",
@@ -2503,3 +2503,8 @@ async def test_remove_unknown_conf_entry_options(hass, mqtt_client_mock):
     await hass.async_block_till_done()
 
     assert mqtt.CONF_PROTOCOL not in entry.data
+    assert (
+        "The following unsupported configuration options were removed from the "
+        "MQTT config entry: {'protocol'}. Add them to configuration.yaml if they "
+        "are needed"
+    ) in caplog.text
