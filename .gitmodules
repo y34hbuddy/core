@@ -4,3 +4,6 @@
 [submodule "config/custom_components/f1_constructors_sensor"]
 	path = config/custom_components/f1_constructors_sensor
 	url = git@bitbucket.org:y34hbuddy/f1_constructors_sensor.git
+[submodule "config/custom_components/f1_season_sensor"]
+	path = config/custom_components/f1_season_sensor
+	url = git@bitbucket.org:y34hbuddy/f1_season_sensor.git
