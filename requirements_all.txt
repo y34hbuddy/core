@@ -393,7 +393,7 @@ beautifulsoup4==4.11.1
 bellows==0.30.0
 
 # homeassistant.components.bmw_connected_drive
-bimmer_connected==0.9.4
+bimmer_connected==0.9.5
 
 # homeassistant.components.bizkaibus
 bizkaibus==0.1.1
@@ -638,7 +638,7 @@ feedparser==6.0.2
 fiblary3==0.1.8
 
 # homeassistant.components.fints
-fints==1.0.1
+fints==3.1.0
 
 # homeassistant.components.fitbit
 fitbit==0.3.1
@@ -1123,7 +1123,7 @@ numato-gpio==0.10.0
 # homeassistant.components.opencv
 # homeassistant.components.tensorflow
 # homeassistant.components.trend
-numpy==1.21.6
+numpy==1.22.4
 
 # homeassistant.components.oasa_telematics
 oasatelematics==0.3
@@ -1156,7 +1156,7 @@ open-garage==0.2.0
 open-meteo==0.2.1
 
 # homeassistant.components.opencv
-# opencv-python-headless==4.5.2.54
+# opencv-python-headless==4.6.0.66
 
 # homeassistant.components.openerz
 openerz-api==0.1.0
@@ -1441,7 +1441,7 @@ pydaikin==2.7.0
 pydanfossair==0.1.0
 
 # homeassistant.components.deconz
-pydeconz==93
+pydeconz==94
 
 # homeassistant.components.delijn
 pydelijn==1.0.0
@@ -1541,7 +1541,7 @@ pyheos==0.7.2
 pyhik==0.3.0
 
 # homeassistant.components.hive
-pyhiveapi==0.5.10
+pyhiveapi==0.5.11
 
 # homeassistant.components.homematic
 pyhomematic==0.1.77
@@ -1990,7 +1990,7 @@ pytrafikverket==0.2.0.1
 pyudev==0.22.0
 
 # homeassistant.components.unifiprotect
-pyunifiprotect==4.0.5
+pyunifiprotect==4.0.7
 
 # homeassistant.components.uptimerobot
 pyuptimerobot==22.2.0
@@ -2522,7 +2522,7 @@ zigpy==0.46.0
 zm-py==0.5.2
 
 # homeassistant.components.zwave_js
-zwave-js-server-python==0.38.0
+zwave-js-server-python==0.39.0
 
 # homeassistant.components.zwave_me
 zwave_me_ws==0.2.4
