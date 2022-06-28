@@ -10,7 +10,7 @@ AEMET-OpenData==0.2.1
 Adax-local==0.1.4
 
 # homeassistant.components.homekit
-HAP-python==4.4.0
+HAP-python==4.5.0
 
 # homeassistant.components.flick_electric
 PyFlick==0.0.2
@@ -228,7 +228,7 @@ aiosyncthing==0.5.1
 aiotractive==0.5.4
 
 # homeassistant.components.unifi
-aiounifi==32
+aiounifi==34
 
 # homeassistant.components.vlc_telnet
 aiovlc==0.1.0
@@ -1065,7 +1065,7 @@ pyiqvia==2022.04.0
 pyiss==1.0.1
 
 # homeassistant.components.isy994
-pyisy==3.0.6
+pyisy==3.0.7
 
 # homeassistant.components.kaleidescape
 pykaleidescape==1.0.1
@@ -1519,7 +1519,7 @@ tailscale==0.2.0
 tellduslive==0.10.11
 
 # homeassistant.components.powerwall
-tesla-powerwall==0.3.17
+tesla-powerwall==0.3.18
 
 # homeassistant.components.tesla_wall_connector
 tesla-wall-connector==1.0.1
